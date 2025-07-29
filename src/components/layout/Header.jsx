@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <nav className="border-b border-gray-950/20 py-8 shadow-sm">
-      <div className="container mx-auto flex justify-between items-center px-4">
+      <div className="container mx-auto flex flex-wrap gap-4 justify-between items-center px-4 py-4">
         <Link to="/" className="text-3xl font-bold">
           Dev<span className="text-violet-700">Connect</span>
         </Link>
