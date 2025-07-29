@@ -47,7 +47,7 @@ export default function Header() {
             >
               <img
                 className="w-15 rounded-full"
-                src={`https://placehold.co/100?text=${user.name[0]}`}
+                src={`/person.png`}
                 alt={user.name}
               />
             </button>
@@ -68,3 +68,5 @@ export default function Header() {
     </nav>
   );
 }
+
+// https://placehold.co/100?text=${user.name[0]}

@@ -34,7 +34,7 @@ export default function Home() {
             <div key={project._id} className="p-4 rounded flex flex-col gap-4">
               <img
                 className="h-auto max-w-full rounded-lg shadow-sm"
-                src={`https://placehold.co/600x400/orange/white?text=${project.title}`}
+                src={`/img.webp`}
                 alt={project.title}
               />
               <h2 className="text-xl font-bold">
@@ -59,3 +59,6 @@ export default function Home() {
     </div>
   );
 }
+
+
+// https://placehold.co/600x400/orange/white?text=${project.title}

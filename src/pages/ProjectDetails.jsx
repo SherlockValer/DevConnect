@@ -51,7 +51,7 @@ export default function ProjectDetails() {
           <div className="flex items-center gap-4">
             <img
               className="w-15 rounded-full"
-              src={`https://placehold.co/100?text=${project.user.name[0]}`}
+              src={`/person.png`}
               alt={project.user.name}
             />
             <h5 className="text-xl font-semibold text-gray-600">
@@ -63,7 +63,7 @@ export default function ProjectDetails() {
         <div className="flex-2/3">
           <img
             className="w-full rounded-lg"
-            src={`https://placehold.co/800x500?text=${project.title}`}
+            src={`/img.webp`}
             alt=""
           />
         </div>
@@ -122,7 +122,7 @@ export default function ProjectDetails() {
                 <div className="flex gap-4 items-center">
                   <img
                     className="w-10 rounded-full"
-                    src={`https://placehold.co/100?text=${c.user.name[0]}`}
+                    src={`/person.png`}
                     alt={c.user.name}
                   />
                   <div className="flex flex-col justify-start`">
